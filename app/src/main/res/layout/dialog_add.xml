@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#8FEFE7"
+
+    >
+
+    <EditText
+        android:layout_marginVertical="20dp"
+        android:id="@+id/edt_addTen"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Nhập Tên"
+        android:background="@drawable/vienbtn"
+        android:inputType="text" />
+
+</LinearLayout>
